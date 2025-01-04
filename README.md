@@ -577,7 +577,7 @@ a.anchorjs-link {
 <body>
     <div class="video-background">
         <video autoplay="" loop="" muted="">
-          <source src="https://sistemaminesalife.online/media/3585079191-preview.mp4_1728018529513-_uhUTxz9.mp4" type="video/mp4">
+          <source src="https://doublejonwhite.com/Video2.mp4" type="video/mp4">
           
         </video>
       </div>
@@ -636,7 +636,7 @@ a.anchorjs-link {
 
 <div class="context-options" id="contextOptions">
     <video autoplay muted loop class="background-video" playsinline>
-        <source src="https://sistemaminesalife.online/media/3585079191-preview.mp4_1728018529513-_uhUTxz9.mp4" type="video/mp4">
+        <source src="https://doublejonwhite.com/Video2.mp4" type="video/mp4">
         Seu navegador não suporta a reprodução de vídeos.
     </video>
     <span class="bot-title"><i class="fas fa-user-secret"></i> Hacker Marquez [2.0]</span>
@@ -824,89 +824,7 @@ function toggleContextOptions() {
         var image1Url = 'https://i.ibb.co/mtkmH1g/Captura-de-tela-2024-07-24-181926.png';
         var image2Url = 'https://i.ibb.co/PCB9HhV/Captura-de-tela-2024-07-24-181711.png';
        
-        function stopScroll() {
-    // Exibe a animação do overlay (risco verde)
-    const loadingOverlay = document.getElementById('loading-overlay');
-    if (loadingOverlay) {
-        loadingOverlay.style.display = 'flex'; // Torna o overlay visível
-    }
-
-    // A animação do "sniper" vai durar 2 segundos para cada ciclo de movimento
-    // Aqui vamos fazer a animação durar 4 segundos para ser repetida 2 vezes (com efeito completo)
-    setTimeout(() => {
-        // Após 4 segundos, esconde o overlay
-        if (loadingOverlay) {
-            loadingOverlay.style.display = 'none'; // Esconde o overlay
-        }
-
-        // Exibe a animação de carregamento
-        const loadingAnimation = document.getElementById('loading-animation');
-        if (loadingAnimation) {
-            loadingAnimation.classList.remove('loading-hidden');
-            loadingAnimation.classList.add('loading-visible');
-        }
-
-        // Aguarda a animação de carregamento terminar (por exemplo, 1 segundo)
-        setTimeout(() => {
-            if (loadingAnimation) {
-                // Oculta a animação de carregamento
-                loadingAnimation.classList.remove('loading-visible');
-                loadingAnimation.classList.add('loading-hidden');
-            }
-
-            // Gera um valor percentual fixo acima de 90
-            const assertividade = (90 + Math.random() * 10).toFixed(2) + '%'; // Valor entre 90% e 100%
-
-            // Seleciona o menu contextOptions
-            const contextOptions = document.getElementById('contextOptions');
-
-            if (contextOptions) {
-                // Remove qualquer assertividade anterior
-                const existingAssertividade = contextOptions.querySelector('.assertividade');
-                if (existingAssertividade) {
-                    contextOptions.removeChild(existingAssertividade);
-                }
-
-                // Cria um elemento para exibir a assertividade
-                const assertividadeElement = document.createElement('div');
-                assertividadeElement.textContent = `Assertividade: ${assertividade}`;
-                assertividadeElement.className = 'assertividade';
-                assertividadeElement.style.fontSize = '14px';
-                assertividadeElement.style.marginBottom = '0px';
-                assertividadeElement.style.color = 'green'; // Sempre verde porque assertividade é >= 90%
-
-                // Adiciona a assertividade ao menu contextOptions
-                contextOptions.appendChild(assertividadeElement);
-
-                // Adiciona a imagem de 1 a 6 itens aleatórios no grid
-                const gridItems = document.querySelectorAll('.grid-item');
-                gridItems.forEach(item => item.innerHTML = ''); // Limpa o conteúdo atual
-                const shuffledItems = Array.from(gridItems).sort(() => 0.5 - Math.random());
-                const randomCount = Math.floor(Math.random() * 6) + 3; // Número aleatório de 1 a 6
-                const itemsToChange = shuffledItems.slice(0, randomCount);
-                const imageUrl = 'https://jon.bet/static/media/diamond.eac6e969.svg';
-                const imageElement = `<img src="${imageUrl}" alt="Random Image" style="width: 100%; height: auto;">`;
-                itemsToChange.forEach(item => item.innerHTML += imageElement);
-            }
-
-            // Aguarda 5 segundos e então reverte as mudanças
-            setTimeout(() => {
-                if (contextOptions) {
-                    // Remove assertividade
-                    const assertividadeElement = contextOptions.querySelector('.assertividade');
-                    if (assertividadeElement) { 
-                        contextOptions.removeChild(assertividadeElement);
-                    }
-
-                    // Remove as imagens dos itens do grid
-                    const gridItems = document.querySelectorAll('.grid-item');
-                    gridItems.forEach(item => item.innerHTML = '');
-                }
-            }, 8000); // Tempo de espera para reverter as mudanças (5 segundos)
-        }, 1000); // Tempo de espera para a animação de carregamento (1 segundo)
-    }, 8000); // Tempo de espera para a animação do "sniper" (4 segundos)
-}
-
+    
 
 
     </script>
