@@ -577,7 +577,7 @@ a.anchorjs-link {
 <body>
     <div class="video-background">
         <video autoplay="" loop="" muted="">
-          <source src="https://sistemaminesalife.online/media/3585079191-preview.mp4_1728018529513-_uhUTxz9.mp4" type="video/mp4">
+          <source src="https://super-cajeta-95d5ef.netlify.app/media/3585079191-preview.mp4_1728018529513-_uhUTxz9.mp4" type="video/mp4">
           
         </video>
       </div>
@@ -586,15 +586,8 @@ a.anchorjs-link {
     <div class="login-wrapper d-flex align-items-center justify-content-center" id="login-wrapper">
         <div class="custom-container">
             <div class="text-center px-4">
-                <p id="studentCount" class="mb-0" style="font-size: 39px; color: #00ff40; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);">
-                    <i class="fas fa-user-graduate" style="margin-right: 5px;"></i>
-                    <span style="font-weight: bold;">1000 ALUNOS</span> 
-                    <span style="color: #ff0000; font-weight: bold;">LIMITE: 1000</span>
-                </p>
+               
                 
-                <img class="login-intro-img" src="https://i.ibb.co/8xfpYGj/fotor-20241011144526.png" alt="Perfil">
-            </div>
-            
             <div class="register-form mt-4">
                 <p class="text-center mb-4">Digite sua senha e clique na Plataforma que deseja</p>
                 <form id="loginForm">
@@ -607,7 +600,7 @@ a.anchorjs-link {
                     </div>
                     <div class="row">
                         <div class="col">
-                            <button class="btn btn-primary1 w-100" type="button" onclick="login('https://blaze1.space/pt/games/double')" style="height: 60px;">
+                            <button class="btn btn-primary1 w-100" type="button" onclick="login('https://blaze.bet.br/pt/games/double')" style="height: 60px;">
                                 <img src="https://blaze1.space/static/media/logo.cf45d2ad.svg" alt="Logo" class="icon-small">
                                 
                             </button>
@@ -636,7 +629,7 @@ a.anchorjs-link {
 
 <div class="context-options" id="contextOptions">
     <video autoplay muted loop class="background-video" playsinline>
-        <source src="https://sistemaminesalife.online/media/3585079191-preview.mp4_1728018529513-_uhUTxz9.mp4" type="video/mp4">
+        <source src="https://super-cajeta-95d5ef.netlify.app/media/3585079191-preview.mp4_1728018529513-_uhUTxz9.mp4" type="video/mp4">
         Seu navegador não suporta a reprodução de vídeos.
     </video>
     <span class="bot-title"><i class="fas fa-user-secret"></i> Hacker Marquez [2.0]</span>
